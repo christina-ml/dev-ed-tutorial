@@ -8,8 +8,10 @@ Create component by writing a function
 function App(){
   return(
     <div className="app">
-      <h1>Hello React</h1>
-      <Tweet />
+      <Tweet name="Dev ED" />
+      <Tweet name="John Snow" />
+      <Tweet name="Traversy Media" />
+      <Tweet name="Mosh" />
     </div>
   )
 }

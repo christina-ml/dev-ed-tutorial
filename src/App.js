@@ -10,13 +10,7 @@ function App(){
   - Based on our state, our HTML is going to change.
   - If we want to get data from an API, we want to save that in a state.
   */
-  const [isRed, setRed] = useState(false);
-  const [count, setCount] = useState(0);
-
-  const increment = () => {
-    setCount(count + 1);
-    setRed(!isRed);
-  }
+  
 
 
   /* Can add a ternary operator in the className */

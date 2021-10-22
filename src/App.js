@@ -14,11 +14,11 @@ function App(){
   const [count, setCount] = useState(0);
 
   /* Add an object here of all the things the user has */
-  const [user, setUser] = useState({
-    name: 'Ed',
-    age: 35,
-    posts: ['my first post', 'my lovely summer']
-  });
+  // const [user, setUser] = useState({
+  //   name: 'Ed',
+  //   age: 35,
+  //   posts: ['my first post', 'my lovely summer']
+  // });
 
   const increment = () => {
     setCount(count + 1);
@@ -26,6 +26,7 @@ function App(){
 
   return(
     <div className="app">
+      <h1>Change my color!</h1>
       <button onClick={increment}>Increment</button>
       <h1>{count}</h1>
     </div>

@@ -22,11 +22,14 @@ function App(){
 
 
   /* Can add a ternary operator in the className */
-  /* Map over the `users` with JSX, so use parentheses instead of curly brackets */
+  /*
+  - Map over the `users` with JSX, so use parentheses instead of curly brackets
+  - Can set a class to the Tweet, and get the rest of the info from the State. such as `user.name`
+  */
   return(
     <div className="app">
       {users.map(user => (
-        <Tweet />
+        <Tweet name={user.name} message={user.message}/>
       ))}
     </div>
   )

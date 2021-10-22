@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/*
+Style Tweet.js in this App.css file
+*/
+
+.tweet{
+  border: 2px solid black;
+}

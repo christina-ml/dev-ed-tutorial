@@ -15,13 +15,11 @@ function App(){
  - Creating an array of objects. (Imagine that you would get this from an API)
  */
   const [users, setUsers] = useState([
-    { name: "Ed", message: "Hello there" },
-    { name: "John", message: "I am John Snow" },
-    { name: "traversy", message: "I am awesome" },
+    { name: "Ramsay Bolton", message: "If you think this has a happy ending you haven't been paying attention." },
+    { name: "Tywin Lannister", message: "Any man who must say 'I am the king' is no true king." },
+    { name: "Daenerys Targaryen", message: "All men must die, but we are not men." },
   ]);
 
-
-  /* Can add a ternary operator in the className */
   /*
   - Map over the `users` with JSX, so use parentheses instead of curly brackets
   - Can set a class to the Tweet, and get the rest of the info from the State. such as `user.name`
@@ -43,14 +41,4 @@ export default App;
 - in our index.js we have import React from 'react'; 3.4K again
 - and a import ReactDOM, and a ReactDOM.render(<App />) compoment; and then getElementById on 'root'
 This isn't HTML, it's JSX which is essentially just JavaScript
-*/
-
-
-/*
-Deleted the Tweet, and will get back to it later.
-
-      <Tweet name="Dev ED" message="This is a random tweet"/>
-      <Tweet name="John Snow" message="I am the true king" />
-      <Tweet name="Traversy Media" message="700k my dudes" />
-      <Tweet name="Mosh" message="My new course is available" />
 */

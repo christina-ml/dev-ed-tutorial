@@ -1,6 +1,5 @@
 /* Create a component - A file that holds all the logic. Html, styling, logic. */
 import React from 'react';
-import Hello from './sayHello';
 
 /*
 Create component by writing a function
@@ -8,8 +7,7 @@ Create component by writing a function
 function App(){
   return(
     <div>
-      <h1>This is the app component</h1>
-      <Hello />
+      <h1>Hello React</h1>
     </div>
   )
 }

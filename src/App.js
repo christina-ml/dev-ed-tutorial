@@ -10,7 +10,15 @@ function App(){
   - Based on our state, our HTML is going to change.
   - If we want to get data from an API, we want to save that in a state.
   */
-  
+ /*
+ - This is where the API call would go, but we're not going to do that.
+ - Creating an array of objects. (Imagine that you would get this from an API)
+ */
+  const [user, setUser] = useState([
+    { name: "Ed", message: "Hello there" },
+    { name: "John", message: "I am John Snow" },
+    { name: "traversy", message: "I am awesome" },
+  ]);
 
 
   /* Can add a ternary operator in the className */

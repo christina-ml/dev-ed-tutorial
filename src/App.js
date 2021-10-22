@@ -7,7 +7,7 @@ Create component by writing a function
 */
 function App(){
   return(
-    <div>
+    <div className="app">
       <h1>Hello React</h1>
       <Tweet />
     </div>

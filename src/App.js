@@ -14,7 +14,7 @@ function App(){
  - This is where the API call would go, but we're not going to do that.
  - Creating an array of objects. (Imagine that you would get this from an API)
  */
-  const [user, setUser] = useState([
+  const [users, setUsers] = useState([
     { name: "Ed", message: "Hello there" },
     { name: "John", message: "I am John Snow" },
     { name: "traversy", message: "I am awesome" },
@@ -22,11 +22,12 @@ function App(){
 
 
   /* Can add a ternary operator in the className */
+  /* Map over the `users` with JSX, so use parentheses instead of curly brackets */
   return(
     <div className="app">
-      <h1 className={isRed ? 'red' : ''}>Change my color!</h1>
-      <button onClick={increment}>Increment</button>
-      <h1>{count}</h1>
+      {users.map(user => (
+        <Tweet />
+      ))}
     </div>
   )
 }

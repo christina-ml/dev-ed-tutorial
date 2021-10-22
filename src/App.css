@@ -6,5 +6,12 @@
 
 /* Style Tweet.js in this App.css file */
 .tweet{
-  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
